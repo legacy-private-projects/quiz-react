@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col } from 'antd';
 import { useSpring, animated } from 'react-spring';
-import Img from '../../images/human.svg';
 
 const LeftBanner = () => {
   const props = useSpring({
@@ -10,7 +9,7 @@ const LeftBanner = () => {
   return (
     <Col xs={24} sm={24} md={24} lg={12}>
       <animated.div style={props}>
-        <img className="mainImg" src={`${Img}`} alt="contact img" height="320" />
+        <img className="mainImg" src="/human.svg" alt="contact img" height="320" />
       </animated.div>
     </Col>
   );

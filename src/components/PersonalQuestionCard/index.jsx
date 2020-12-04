@@ -1,8 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/no-array-index-key */
-import {
-  Button, Input,
-} from 'antd';
+import { Button, Input } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import inputValidation from '../../services/inputValidation';

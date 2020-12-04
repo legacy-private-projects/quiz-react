@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col } from 'antd';
 import { useSpring, animated } from 'react-spring';
-import HandShake from '../../images/handshake.svg';
 
 const ThankYou = () => {
   const props = useSpring({
@@ -10,7 +9,7 @@ const ThankYou = () => {
   return (
     <animated.div style={props}>
       <Col xs={24} sm={24} md={24} lg={24}>
-        <img className="mainImg" src={`${HandShake}`} alt="handshake" height="230px" />
+        <img className="mainImg" src="/handshake.svg" alt="handshake" height="230px" />
         <div className="thankyouText">
           <h2>Thank you!!</h2>
         </div>
