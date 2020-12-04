@@ -1,0 +1,18 @@
+{
+  "name": "quiz-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JorbFreire/serInfoMedia",
+  "author": "JorbFreire <jorbfreire@ufrn.edu.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
