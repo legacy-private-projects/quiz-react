@@ -15,7 +15,7 @@ import PersonalQuestionCard from '../components/PersonalQuestionCard';
 import ThankYou from '../components/ThankYou';
 import LeftBanner from '../components/LeftBanner';
 
-// import './style.less';
+import './styles.less';
 
 const IndexPage = () => {
   const initialState = {
